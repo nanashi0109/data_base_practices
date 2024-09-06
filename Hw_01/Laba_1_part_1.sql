@@ -10,14 +10,10 @@ SHOW TABLES;
 
 DESC `books_table`;
 
-INSERT INTO `books_table` (`Name`, `Author`, `Year`, `Reader`)
-	VALUES ('Война и мир', 'Толстой Л.Н.', 1990, 'Сидоров И.Д.');
-
-INSERT INTO `books_table` (`Name`, `Author`, `Year`, `Reader`)
-	VALUES ('Капитанская дочка', 'Пушкин А.С.', 2004, 'Дмитриев С.Л.');
-	
-INSERT INTO `books_table` (`Name`, `Author`, `Year`, `Reader`)
-	VALUES ('Горе от ума', 'Грибоедов А.С.', 2012, 'Some reader') ;
+INSERT INTO `books_table` (`Name`, `Author`, `Year`, `Reader`) VALUES 
+	('Война и мир', 'Толстой Л.Н.', 1990, 'Сидоров И.Д.'),
+	('Капитанская дочка', 'Пушкин А.С.', 2004, 'Дмитриев С.Л.'),
+	('Горе от ума', 'Грибоедов А.С.', 2012, 'Some reader');
 	
 SELECT * FROM `books_table`;
 
